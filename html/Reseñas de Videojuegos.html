@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reseñas de Videojuegos</title>
+  <link rel="stylesheet" href="styles.css" />
+ </head>
+ <body>
+  <header>
+   <h1>Reseñas de Videojuegos</h1>
+   <nav>
+    <ul>
+     <li><a href="#reseñas">Reseñas</a></li>
+     <li><a href="#opinar">Opinar</a></li>
+     <li><a href="#contacto">Contacto</a></li>
+    </ul>
+   </nav>
+  </header>
+
+  <section id="reseñas">
+   <h2>Reseñas</h2>
+   <div id="reseñas-container">
+    <!-- Las reseñas de los usuarios se cargarán aquí con JavaScript -->
+   </div>
+  </section>
+  <section id="opinar">
+   <h2>Opinar</h2>
+   <form id="opinar-form">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required />
+    <label for="opinion">Opinión:</label>
+    <textarea id="opinion" name="opinion" required></textarea>
+    <button type="submit">Enviar Opinión</button>
+   </form>
+  </section>
+
+  <section id="contacto">
+   <h2>Contacto</h2>
+   <p>Ponte en contacto con nosotros para cualquier pregunta o sugerencia.</p>
+   <!-- Formulario de contacto opcional -->
+  </section>
+
+  <footer>
+   <p>&copy; 2024 Reseñas de Videojuegos</p>
+  </footer>
+
+  <script src="script.js"></script>
+ </body>
+</html>
